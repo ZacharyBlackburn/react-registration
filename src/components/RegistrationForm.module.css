@@ -1,0 +1,122 @@
+.registrationContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.formHeading {
+  margin: 0;
+  padding: 10px;
+  color: #2c3e50;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+}
+  
+.label {
+  display: block;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+.input {
+  font-size: 14px;
+  padding: 3px;
+  margin: 2px;
+  border-radius: 5px;
+  border-width: thin;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  font-size: 8px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.success{
+  display: block;
+  font-size: 8px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.loginText {
+  padding-top: -500px;
+  font-weight: bold;
+  color: white;
+}
+
+.formContainerLeft {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  padding-right: 10px;
+}
+
+.formContainerRight {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  background-color: #FA7305;
+  padding: 40% 0;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.loginBtn {
+  margin-top: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 12px;  
+  font-size: 0.8rem;
+  border: none;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.25s ease;
+}
+
+.loginBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: rgb(214, 214, 214);
+}
+
+.registerBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  margin-left: 105px;
+  margin-right: 105px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  background: #FA7305;
+  transition: all 0.25s ease;
+}
+
+.registerBtn:hover {
+  box-shadow: 0 10px 20px -10px rgba(255, 62, 78, 0.6);
+  transform: translateY(-5px);
+  background: #ab4d01;
+}
